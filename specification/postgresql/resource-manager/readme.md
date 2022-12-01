@@ -67,10 +67,20 @@ These settings apply only when `--tag=package-flexibleserver-2022-03-privateprev
 
 ``` yaml $(tag) == 'package-flexibleserver-2022-03-privatepreview'
 input-file:
-- Microsoft.DBforPostgreSQL/preview/2022-03-08-privatepreview/getCachedServerName.json
-- Microsoft.DBforPostgreSQL/preview/2022-01-20-preview/Databases.json
-- Microsoft.DBforPostgreSQL/preview/2022-01-20-preview/PrivateDnsZone.json
-- Microsoft.DBforPostgreSQL/preview/2022-01-20-preview/postgresql.json
+  - Microsoft.DBforPostgreSQL/preview/2022-03-08-privatepreview/getCachedServerName.json
+  - Microsoft.DBforPostgreSQL/preview/2022-03-08-preview/Administrators.json
+  - Microsoft.DBforPostgreSQL/preview/2022-03-08-preview/Backups.json
+  - Microsoft.DBforPostgreSQL/preview/2022-03-08-preview/Capabilities.json
+  - Microsoft.DBforPostgreSQL/preview/2022-03-08-preview/CheckNameAvailability.json
+  - Microsoft.DBforPostgreSQL/preview/2022-03-08-preview/Configuration.json
+  - Microsoft.DBforPostgreSQL/preview/2022-03-08-preview/Databases.json
+  - Microsoft.DBforPostgreSQL/preview/2022-03-08-preview/FirewallRules.json
+  - Microsoft.DBforPostgreSQL/preview/2022-03-08-preview/FlexibleServers.json
+  - Microsoft.DBforPostgreSQL/preview/2022-03-08-preview/Operations.json
+  - Microsoft.DBforPostgreSQL/preview/2022-03-08-preview/PrivateDnsZone.json
+  - Microsoft.DBforPostgreSQL/preview/2022-03-08-preview/Replicas.json
+  - Microsoft.DBforPostgreSQL/preview/2022-03-08-preview/VirtualNetwork.json
+  - Microsoft.DBforPostgreSQL/preview/2022-03-08-preview/ServerStartStopRestart.json
 ```
 
 ### Tag: package-flexibleserver-2022-01-preview
